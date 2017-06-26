@@ -16,6 +16,8 @@ object HttpJsonPost extends App {
 
 /**
   *
+  * This code is primarily from Alvin Alexander's Scala Cookbook.
+  * 
   * Will probably need to use Lift-JSON library instead of GSON
   * because classes are complex. Maybe...
   *
