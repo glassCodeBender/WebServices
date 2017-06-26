@@ -1,19 +1,31 @@
 
+/* Imports for web client */
+import org.apache.commons.httpclient.NameValuePair
+import java.io._
+import org.apache.commons
+import org.apache.http._
+import org.apache.http.client._
+import org.apache.client.methods.HttpPost
+import org.apache.impl.client.DefaultHttpClient
+import java.util.ArrayList
+import org.apache.http.message.BasicNameValuePair
+import org.apache.http.client.entity.UrlEncodedFormEntity
+import org.google.gson.Gson
 
 object HttpJsonPost extends App {
 
-	/**
-		*
-		* Will probably need to use Lift-JSON library instead of GSON
-		* because classes are complex. Maybe...
-		*
-		* What do we need to send to the client for processing?
-		* Logs
-		* MFT CSV
-    * Prefetch files
-    * Image from memory for processing w/ vol.py
-		*
-	  */
+/**
+  *
+  * Will probably need to use Lift-JSON library instead of GSON
+  * because classes are complex. Maybe...
+  *
+  * What do we need to send to the client for processing?
+  * Logs
+  * MFT CSV
+  * Prefetch file
+  * Image from memory for processing w/ vol.py
+  *
+  */
 
 	// create object as a JSON String
 	val bbs = BBSWeb()
