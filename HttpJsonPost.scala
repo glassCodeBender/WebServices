@@ -10,6 +10,8 @@ object HttpJsonPost extends App {
 		* What do we need to send to the client for processing?
 		* Logs
 		* MFT CSV
+    * Prefetch files
+    * Image from memory for processing w/ vol.py
 		*
 	  */
 
